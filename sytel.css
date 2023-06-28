@@ -2,10 +2,14 @@ body{
     margin: 0;
     padding: 0;
 }
+/* top banner start */
 .top-banner{
 display: flex;
+background-image:url(image/4th-photo.png);
+background-repeat: no-repeat;
 }
 .middel{
+margin: 40px;    
 width: 50%;
 padding-left: 2px;
 }
@@ -16,7 +20,7 @@ margin: 10px;
 }
 .middel h3{
 font-size: 20px;
-margin-top: 60px;
+margin-top: 50px;
 }
 .middel span{
   color:#22c3df;
@@ -29,33 +33,42 @@ margin-bottom: 30px;
     text-decoration:none;
     font-size: 20px;
     background-color:#fa725c;
-    color: white;
+    color: black;
     padding: 10px;
-    border-radius: 10px;
-}
-.top-banner img{
-width: 100%;
+    border-radius: 10px ;
+    border: 2px solid black;
 }
 /* top banner end */
-/* top banner start */
+/* secnd banner */
 .secnd-banner{
 display: flex;
+margin-top: 50px;
+background-image:url(image/2nd-photo.png);
+background-repeat: no-repeat;
+background-position: right;
 }
-/* top banner end */
+.photo{
+    width: 95%;
+    transition: .3s all ease-in;
+    margin-left: 20px;
+}
+.photo:hover{
+
+}
+/* banner banner end */
 /* experiences start */
 .experiences{
     display: flex;
-    width: 100%;
-    justify-content: space-around;
+    margin-bottom: 60px;
+    background-image:url(image/3rd-photo.png);
+    background-repeat: no-repeat;
 }
 .box{
-    box-shadow: 10px 10px 40px #836631;
-    padding: 10px;
-    width: 40%;
-    margin: 20px;
+    box-shadow: 10px 10px 40px ;
+    padding: 20px;  
     transition: .3s all ease-in;
     border-radius: 10px;
-    border-left:7px solid blue;
+    border-left: 7px solid blue;
 }
 .box:hover{
     box-shadow: 0px 10px 40px #7676cc
@@ -68,17 +81,64 @@ display: flex;
     border-radius: 5px;
 }
 .part{
-    margin-left: 20px;
+    font-size: 50px;
+    margin-left: 40px;
+}
+.box.h1{
     font-size: 40px;
 }
-.box h1{
-
-}
 .box h3{
-  
-    
-}
+    font-size: 30px;
+}  
 .box p{
-
+font-size: 20px;
 }
 /* experiences end */
+/* footer start */
+footer{
+    font-size: 20px;
+    text-align: center;
+    color: gray;
+  }
+  /* footer end */
+  .middel a{
+    cursor:pointer;
+      position:relative;
+      padding:10px 20px;
+      background:#fa725c;
+      font-size:28px;
+      border-top-right-radius:10px;
+      border-bottom-left-radius:10px;
+      transition:all 1s;
+      &:after,&:before{
+        content:" ";
+        width:10px;
+        height:10px;
+        position:absolute;
+        border :0px solid #fa725c;
+        transition:all 1s;
+        }
+      &:after{
+        top:-1px;
+        left:-1px;
+        border-top:5px solid black;
+        border-left:5px solid black;
+      }
+      &:before{
+        bottom:-1px;
+        right:-1px;
+        border-bottom:5px solid black;
+        border-right:5px solid black;
+      }
+      &:hover{
+        border-top-right-radius:0px;
+        border-bottom-left-radius:0px;
+        background:#fa725c;
+        color:black;
+        &:before,&:after{
+          width:100%;
+          height:100%;
+          border-color:black;
+        }
+      }
+    }
