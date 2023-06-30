@@ -14,8 +14,8 @@ width: 50%;
 padding-left: 2px;
 }
 .middel h1{
-font-size: 40px;
-font-family:'Marck Script', cursive;
+font-size: 50px;
+font-family: 'Noto Sans', sans-serif;
 margin: 10px;
 }
 .middel h3{
@@ -24,7 +24,7 @@ margin-top: 50px;
 }
 .middel span{
   color:#fa725c;
-  font-size: 24px;
+  font-size: 45px;
 }
 .middel p{
 font-family: 'Josefin Sans', sans-serif;
@@ -32,10 +32,7 @@ margin-bottom: 30px;
 }
 .middel a{
     text-decoration:none;
-    font-size: 20px;
-    background-color:#fa725c;
     color: black;
-    padding: 10px;
     border-radius: 10px ;
     border: 2px solid black;
 }
@@ -106,7 +103,7 @@ footer{
   .middel a{
     cursor:pointer;
       position:relative;
-      padding:10px 20px;
+      padding:2px 5px;
       background:#fa725c;
       font-size:28px;
       border-top-right-radius:10px;

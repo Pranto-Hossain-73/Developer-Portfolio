@@ -44,6 +44,9 @@
         font-size: 30px;
         margin-left: 10px;
 }
+.middel span{
+    font-size: 22px;
+}
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -171,6 +174,6 @@ margin-top: 10px;
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     .middel h1 {
-        font-size: 30px;
+        font-size: 40px;
     }
 }
