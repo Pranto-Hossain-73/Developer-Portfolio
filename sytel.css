@@ -23,7 +23,8 @@ font-size: 20px;
 margin-top: 50px;
 }
 .middel span{
-  color:#22c3df;
+  color:#fa725c;
+  font-size: 24px;
 }
 .middel p{
 font-family: 'Josefin Sans', sans-serif;
@@ -62,6 +63,7 @@ background-position: right;
     margin-bottom: 60px;
     background-image:url(image/3rd-photo.png);
     background-repeat: no-repeat;
+    background-size: 50px;
 }
 .box{
     box-shadow: 10px 10px 40px ;
